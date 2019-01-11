@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+    <head>
+        <title>Slideshow</title>
+        <meta name="description" content="Unlimited slideshow">
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>		
+    </head>
+    <body>
+        <main>
+        <div class="main">
+            <div class="sl">
+                <div id="slider" class="sl__slide">
+                    <img src="/pic/slika2.jpg" class="sl__img">
+                    <img src="/pic/slika4.jpg" class="sl__img">
+                </div>
+                <div id="slider" class="sl__slide">
+                    <img src="/pic/slika2.jpg" class="sl__img">
+                    <img src="/pic/slika4.jpg" class="sl__img"> 
+                </div>
+                <div id="slider" class="sl__slide">
+                    <img src="/pic/slika2.jpg" class="sl__img">
+                    <img src="/pic/slika4.jpg" class="sl__img">
+                </div>
+                <div id="slider" class="sl__slide">
+                    <img src="/pic/slika2.jpg" class="sl__img">
+                    <img src="/pic/slika4.jpg" class="sl__img">
+                </div>
+                <div id="slider" class="sl__slide">
+                    <img src="/pic/slika2.jpg" class="sl__img">
+                    <img src="/pic/slika4.jpg" class="sl__img">
+                </div>
+            </div>
+            <div class="slideshow--text">
+                <h2>Lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Mauris quis facilisis orci. Cras ac ligula augue. Nam semper nisi molestie augue euismod imperdiet.</p>
+                <p>Nam semper nisi molestie augue euismod imperdiet</p>
+            </div>
+        </div>
+        </main>
+            <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+            <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+            <script type="text/javascript" src="slick/slick.min.js"></script>
+            <script>
+               $(document).ready(function(){
+                    $('.sl').slick({
+                        infinite: true,
+                        slidesToShow: 4,
+                        slidesToScroll: 4
+                    });
+                    });
+            </script>
+        </div>
+    </body>
+</html>
